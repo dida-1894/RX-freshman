@@ -26,6 +26,8 @@ $(document).ready(function () {
     });
     $(window).load(function () {
         "use strict";
+        console.log($(".mCSB_scrollTools"));
+        $(".mCSB_scrollTools").css("display","block");
         $(".modal").delay(5000).fadeOut(1000);
         var moHeight = $(window).height();
         $(".the").css("height", moHeight);
